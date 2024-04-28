@@ -2,8 +2,8 @@
 
 - name: Ensure python3-apt package is installed
   apt:
-    name: python3-apt
-    state: present
+   name: python3-apt
+   state: present
 
 - name: Install PostgreSQL
   apt:
